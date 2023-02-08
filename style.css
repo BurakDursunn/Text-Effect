@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: green;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0%;
+    flex-direction: column;
+    padding-top: 10%;
+        
+}
+
+.content{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+input{
+    width: 40px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: green;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.speed{
+    position: absolute;
+    bottom: 50px;
+    background-color: rgba(44, 58, 23, 0.783);
+    border-radius: 10px;
+    padding-left: 6px;
+    padding: 5px 10px;
+}
